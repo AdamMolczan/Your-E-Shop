@@ -18,10 +18,15 @@
         <td><form:label path="lastName">Nazwisko</form:label></td>
         <td><form:input path="lastName" /></td>
     </tr>
+        <tr>
+        <td><form:label path="email">email</form:label></td>
+        <td><form:input path="email" /></td>
+    </tr>
     <tr>
         <td><form:label path="password">Hasło</form:label></td>
         <td><form:input path="password" /></td>
     </tr>
+
     <tr>
         <td><form:label path="repassword">Powtórz hasło</form:label></td>
         <td><form:input path="repassword" /></td>

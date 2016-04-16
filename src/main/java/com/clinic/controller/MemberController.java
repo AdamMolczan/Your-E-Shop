@@ -21,8 +21,9 @@ public class MemberController {
    ModelMap model) {
       model.addAttribute("firstName", member.getFirstName());
       model.addAttribute("lastName", member.getLastName());
+      model.addAttribute("email", member.getEmail());
       model.addAttribute("password", member.getPassword());
       model.addAttribute("repassword", member.getRepassword());
-      return "result";
+      return "thanksRegistration";
    }
 }

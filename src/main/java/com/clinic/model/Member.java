@@ -3,14 +3,16 @@ package com.clinic.model;
 public class Member {
 	private String firstName;
 	private String lastName;
+	private String email;
 	private String password;
 	private String repassword;
 	
 	public Member() {}
 	
-	public Member(String firstName, String lastName, String password, String repassword){
+	public Member(String firstName, String lastName, String email, String password, String repassword){
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.email = email;
 		this.password = password;
 		this.repassword = repassword;
 	}
@@ -22,6 +24,10 @@ public class Member {
 	public String getLastName(){return lastName;}
 	public void setLastName(){
 		this.lastName = lastName;
+	}
+	public String getEmail() {return email;}
+	public void setEmail() {
+		this.email = email;
 	}
 	public String getPassword(){return password;}
 	public void setPassword(){

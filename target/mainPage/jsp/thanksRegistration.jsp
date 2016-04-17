@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Dziękuję: $(member.)</h1>
+	<h1>Dziękuję: ${hash}</h1>
 </body>
 </html>
